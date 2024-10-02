@@ -1,0 +1,22 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "description": "",
+  "exports": {
+    "./utils": {
+      "source": "./src/utils/index.ts"
+    },
+    "./component": {
+      "source": "./src/component/index.ts"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1"
+  }
+}
